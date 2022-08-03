@@ -8,6 +8,11 @@ using System.Threading.Tasks;
 
 namespace UnitTestProject1
 {
+    //*[TestInitialize]* attribute kullanımı test alanında ilk çalışacak metodu belirler. Bu alan içerisinde
+    //tüm testlerde ortak olacak kod satırları bulunur.
+    //*[TestMethod]* attribute u içerisinde, test edilecek metod çağırılır ve test edilir.
+    //*[TestCleanup]* test alanında en son çalışacak yerdir. Tüm testler tamamlandıktan sonra bu metod içerisinde
+    //bulunan kod satırları çalışmaktadır. Testlerden sonra şu işlem yapılsın şeklinde düşünülebilir.
     [TestClass]
     public class ToplamaTests
     {
