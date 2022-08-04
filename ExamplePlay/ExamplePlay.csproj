@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Example.cs" />
+    <Compile Include="HataTepki.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Toplama.cs" />
   </ItemGroup>
